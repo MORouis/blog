@@ -1,0 +1,73 @@
+//articles
+.float-right {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  background-color: black;
+  color: white;
+}
+//addArticle
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.text-center {
+  text-align: center;
+}
+
+//getArticle
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+select {
+  width: 40%;
+  height: 40px;
+  font-size: 18px;
+}
+
+//getArticleById
+.share-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.btn-danger{
+  color: white
+}
+.btn-secondary{
+  color: white
+}
+.like-color{
+  color: red;
+}
+.containerA{
+  height: 99%;
+  max-Width: 99%;
+}
+.numbers{
+  margin: 20px;
+}
+.sep-functionalities{
+  margin: 5px;
+}
+.hr{
+  margin: 0px;
+}
+
+//listingComments
+.hover-icon-delete:hover {
+  color: #800000
+  ;
+}
+.hover-icon-edit:hover {
+  color: #006400;
+}
+.btn-light-delete{
+  color: #ff0000
+}
+.btn-light-edit{
+  color: 	#32CD32
+}
+@export "style";
